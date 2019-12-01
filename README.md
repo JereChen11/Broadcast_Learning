@@ -77,9 +77,9 @@ protected void onPause() {
 静态注册 android.intent.action.BOOT_COMPLETED 开机启动广播，及动态注册自定义广播。
 ## 4.1 静态注册 BOOT_COMPLETED 广播
 当我们完成了BOOT_COMPLETED 广播的静态注册后，当我们的手机开机后，我们的 app 就能收到该广播， 如下图所示：
-https://github.com/JereChen11/Broadcast_Learning/raw/master/readmeImage/restart.png
-https://github.com/JereChen11/Broadcast_Learning/raw/master/readmeImage/onreceiver.png
+![重启手机](https://github.com/JereChen11/Broadcast_Learning/raw/master/readmeImage/restart.png)
+![手机启动完成app收到该广播](https://github.com/JereChen11/Broadcast_Learning/raw/master/readmeImage/onreceiver.png)
 
 ## 4.2 动态注册我们的自定义广播
 在 MainActivity 中注册我们的广播，然后点击 Send MyCustomReceiver 按钮，发送该广播，并包含发送者信息，收到广播后，利用 Toast 将收到的发送者信息显示出来，效果如下：
-https://github.com/JereChen11/Broadcast_Learning/raw/master/readmeImage/sendcustomreceiver.gif
+![发送自定义广播](https://github.com/JereChen11/Broadcast_Learning/raw/master/readmeImage/sendcustomreceiver.gif)
