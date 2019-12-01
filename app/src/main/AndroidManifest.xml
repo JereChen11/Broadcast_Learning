@@ -33,7 +33,6 @@
             <intent-filter>
                 <action android:name="JERE_TEST_CUSTOM_RECEIVER"/>
             </intent-filter>
-
         </receiver>
     </application>
 
